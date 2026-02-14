@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.WindowHandling">
+      <class name="test.Test_GoogleTextBox">
         <methods>
-          <include name="test_WindowHandling"/>
+          <include name="googleTextBox"/>
         </methods>
-      </class> <!-- test.WindowHandling -->
+      </class> <!-- test.Test_GoogleTextBox -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
